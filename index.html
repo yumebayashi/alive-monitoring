@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -84,7 +85,12 @@
                             </li>
                             <br><br>
                             <li>
-                                <input type="submit" value="送信する" style="color: black;" >
+                                　<select name="freq" class="selectpicker" data-width="100px">
+　　　　　　　　　　　　　　　　　　　　　<option value="1">１時間</option>
+　　　　　　　　　　　　　　　　　　　　　<option value="2" selected>１日</option>
+　　　　　　　　　　　　　　　　　　　　　<option value="3">１週間</option>
+　　　　　　　　　　　　　　　　　　　　</select>
+                                <input type="submit" value="登録" style="color: black;" >
                             </li>
                         </ul>
                     </div>
@@ -198,6 +204,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
 
 </body>
 
